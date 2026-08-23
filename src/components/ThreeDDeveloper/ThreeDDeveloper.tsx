@@ -81,7 +81,7 @@ export function ThreeDDeveloper() {
       <pointLight position={[-4, 2, 2]} intensity={55} distance={8} color="#7c4dff" />
       <pointLight position={[3, -1, 4]} intensity={35} distance={7} color="#29d6ff" />
       <spotLight position={[0, 5, 3]} angle={0.48} penumbra={0.8} intensity={70} color="#ffb17a" />
-      <PresentationControls global rotation={[0, -0.08, 0]} polar={[-0.28, 0.22]} azimuth={[-0.6, 0.6]} config={{ mass: 1.2, tension: 140 }} snap>
+      <PresentationControls global rotation={[0, -0.08, 0]} polar={[-0.28, 0.22]} azimuth={[-0.6, 0.6]}  snap>
         <Float speed={1.5} rotationIntensity={0.08} floatIntensity={0.18}><CoderCharacter /></Float>
       </PresentationControls>
       <Sparkles count={65} scale={[7,5,4]} size={2.1} speed={0.35} color="#8ecbff" />
