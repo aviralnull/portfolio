@@ -1,4 +1,4 @@
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import { useRef } from "react";
 const timeline=[
 {year:"2025",title:"Software Developer Intern",company:"AWDH Technology",description:"Worked on production web applications across feature development, debugging, testing and deployment while collaborating through the software development lifecycle."},
