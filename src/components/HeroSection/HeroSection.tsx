@@ -27,7 +27,7 @@ export const HeroSection=()=> <section id="hero" className="relative min-h-[100v
     <div className="tech-orb orb-react">⚛</div>
     <div className="tech-orb orb-node">JS</div>
     <div className="tech-orb orb-cpp">C++</div>
-    <img className="character-cutout" src="/aviral-vr-character.png" alt="Futuristic developer wearing a VR headset" />
+    <img className="character-cutout" src="/aviral_no_bg.png" alt="Futuristic developer wearing a VR headset" />
     <div className="character-light-sweep" />
   </div>
 </motion.div>
